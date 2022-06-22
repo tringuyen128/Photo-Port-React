@@ -12,7 +12,7 @@ function Gallery(props) {
     <section>
       <h1>{capitalizeFirstLetter(currentCategory.name)}</h1>
       <p>{currentCategory.name}</p>
-      <div>
+      <div className="flex-row">
         <img
           src={photo}
           alt="Commercial Example"
@@ -22,5 +22,4 @@ function Gallery(props) {
     </section>
   )
 }
-
 export default Gallery
